@@ -1,0 +1,46 @@
+@import "_var";
+@import "_fonts";
+
+html {
+   box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+   box-sizing: inherit;
+}
+
+body {
+   min-width: 320px;
+   overflow-x: hidden;
+}
+
+.contheadermob1 {
+   display: none;
+}
+
+#logo2 {
+   display: none;
+}
+
+.twvkf1 {
+   display: none;
+}
+
+.rocket {
+   display: none;
+}
+
+.contprocess2 {
+   display: none;
+}
+
+@import "_header";
+@import "_sectionServices";
+@import "_stage";
+@import "_aboutproject";
+@import "_contacts";
+@import "_footer";
+@import "_menu";
+@import "_form";

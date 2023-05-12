@@ -1,0 +1,76 @@
+.footer {
+   background-color: #000000;
+   &__inner {
+      max-width: 400px;
+      margin: auto;
+      padding: 25px 0 30px 0;
+   }
+}
+
+.elemsoc {
+   display: inline;
+}
+
+.twvkf {
+   display: flex;
+   justify-content: space-between;
+   width: 116px;
+   margin: auto;
+   margin-top: 22px;
+}
+
+.polytic {
+   margin: 30px 0 0 0;
+   font-family: "Philosopher";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   line-height: 15px;
+   /* or 107% */
+   text-align: center;
+
+   color: #ffffff;
+}
+
+@media (min-width: 1100px) {
+   .footer {
+      &__inner {
+         min-width: 1074px;
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         padding: 45px 0 40px 0;
+      }
+   }
+   .polytic {
+      display: inline;
+      width: 300px;
+      margin: 0;
+      text-align: left;
+   }
+   .twvkf {
+      display: inline;
+      width: 200px;
+      margin: 0;
+      display: flex;
+      flex-direction: row;
+   }
+   .elemsoc {
+      display: block;
+      width: 40px;
+      height: 40px;
+      position: relative;
+   }
+   .socimg {
+      position: absolute;
+      right: 10px;
+   }
+   #pol1 {
+      order: -2;
+   }
+   #pol2 {
+      order: -1;
+      width: 400px;
+      text-align: center;
+   }
+}

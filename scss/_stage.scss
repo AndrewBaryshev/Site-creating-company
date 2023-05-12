@@ -1,0 +1,94 @@
+.stages {
+   background-color: rgba(0, 12, 35, 0.86);
+   &__inner {
+      max-width: 400px;
+      padding: 36px 0 30px 0;
+      margin: auto;
+      position: relative;
+   }
+}
+
+.process {
+   width: 274px;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+}
+
+.processtext {
+   width: 184px;
+   height: 78px;
+   font-family: "Nunito";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 27px;
+   line-height: 35px;
+   /* identical to box height, or 117% */
+
+   display: flex;
+   align-items: flex-end;
+   letter-spacing: 0.06em;
+
+   color: #ffffff;
+}
+
+.containprocess {
+   width: 261px;
+   margin: auto;
+   margin-top: 30px;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-between;
+   min-height: 400px;
+}
+
+.block123 {
+   display: inline;
+   font-family: "Pragati Narrow", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 23px;
+   line-height: 20px;
+   text-decoration: underline dotted #687962;
+   margin: 10px 0 10px 0;
+   /* or 174% */
+
+   color: #d3d5d9;
+   &:hover {
+      cursor: pointer;
+      transition: 400ms;
+      color: #fc7878;
+      text-decoration: underline solid #00f0ff;
+   }
+}
+
+.aclass {
+   font-family: "PT Mono", sans-serif;
+   font-size: 14px;
+   font-weight: 500;
+   color: #e7d9d5;
+   margin: 10px 0 10px 0;
+}
+
+@media (min-width: 1100px) {
+   .process {
+      margin: 0;
+   }
+   .stages {
+      &__inner {
+         min-width: 1074px;
+      }
+   }
+   .containprocess {
+      margin: 0;
+      margin-top: 30px;
+      min-width: 500px;
+      position: relative;
+   }
+   .rocket {
+      display: block;
+      position: absolute;
+      bottom: 50px;
+      right: 50px;
+   }
+}

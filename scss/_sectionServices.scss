@@ -1,0 +1,205 @@
+.services {
+   background: rgb(2, 0, 36);
+   background: radial-gradient(
+      circle,
+      rgba(2, 0, 36, 1) 14%,
+      rgba(18, 18, 97, 1) 23%,
+      rgba(8, 8, 68, 1) 43%,
+      rgba(9, 9, 71, 1) 58%,
+      rgba(14, 16, 103, 1) 73%,
+      rgba(25, 30, 65, 1) 94%
+   );
+   &__inner {
+      padding: 25px 0 30px 0;
+      max-width: 400px;
+      margin: auto;
+   }
+}
+
+.services1 {
+   width: 195px;
+   height: 60px;
+   display: flex;
+   justify-content: space-between;
+   margin: auto;
+}
+
+.servicestext {
+   font-family: "Nunito";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 30px;
+   line-height: 35px;
+   /* identical to box height, or 117% */
+
+   display: flex;
+   align-items: flex-end;
+   letter-spacing: 0.06em;
+
+   color: #ffffff;
+}
+
+.servicecontain {
+   width: 100%;
+   height: 283px;
+   border: 3px solid #ffffff;
+   box-sizing: border-box;
+   border-radius: 35px;
+   padding: 24px 17px 0 36px;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+}
+
+.servicecontain1 {
+   width: 100%;
+   height: 283px;
+   border: 3px solid #60bfca;
+   box-sizing: border-box;
+   border-radius: 35px;
+   padding: 24px 17px 0 36px;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+}
+
+.servicecontain2 {
+   width: 100%;
+   height: 283px;
+   border: 3px solid #cc4c3b;
+   box-sizing: border-box;
+   border-radius: 35px;
+   padding: 24px 17px 0 36px;
+   display: flex;
+   flex-wrap: wrap;
+   align-content: flex-start;
+}
+
+.services2 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   align-content: flex-start;
+   &__inner1 {
+      width: 294px;
+      height: 339px;
+      margin: 24px 0 35px 0;
+   }
+
+   &__inner2 {
+      width: 294px;
+      height: 339px;
+      margin: 0 0 36px 0;
+   }
+
+   &__inner3 {
+      width: 294px;
+      height: 339px;
+      margin: 0;
+   }
+}
+
+@media (min-width: 1000px) {
+   .services {
+      &__inner {
+         max-width: 960px;
+      }
+   }
+   .services2 {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      margin-top: 30px;
+      &__inner1 {
+         width: 294px;
+         height: 339px;
+         margin: auto;
+      }
+
+      &__inner2 {
+         width: 294px;
+         height: 339px;
+         margin: auto;
+      }
+
+      &__inner3 {
+         width: 294px;
+         height: 339px;
+         margin: auto;
+      }
+   }
+}
+
+@media (min-width: 1100px) {
+   .services1 {
+      margin: 0;
+      margin-left: 50px;
+   }
+   .services {
+      &__inner {
+         max-width: 1200px;
+      }
+   }
+   .services2 {
+      display: grid;
+      grid-template-columns: 33% 33% 33%;
+      margin-top: 30px;
+   }
+}
+
+.price {
+   height: 40px;
+   width: 40px;
+   font-family: "PT Mono";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 10px;
+   /* or 267% */
+
+   letter-spacing: 0.1em;
+   text-decoration: underline dotted #60bfca;
+
+   color: #ffffff;
+}
+
+.sirvicename {
+   width: 167px;
+   height: 40px;
+   margin: 0 0 0 25px;
+   font-family: "Sedgwick Ave Display", sans-serif;
+   font-style: normal;
+   font-weight: normal;
+   font-size: 25px;
+   line-height: 40px;
+   /* identical to box height, or 160% */
+   color: #ffffff;
+}
+
+// !Поставить шрифт Pragati Narrow
+.servicedescription {
+   width: 233px;
+   height: 120px;
+   // letter-spacing: 0.3px;
+   margin: 15px 0 0 0;
+   font-family: "PT Mono";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 14px;
+   /* or 154% */
+
+   color: rgba(232, 231, 231, 0.69);
+}
+
+.cogwheel {
+   width: 113px;
+   height: 113px;
+   margin: 25px 0 0 52px;
+   z-index: 1;
+}
+
+.cogwheel1 {
+   width: 113px;
+   height: 113px;
+   margin: 25px 0 0 52px;
+   z-index: 1;
+}

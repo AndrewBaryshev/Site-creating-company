@@ -1,0 +1,107 @@
+.aboutproject {
+   background-color: rgba(11, 38, 1, 0.62);
+   &__inner {
+      max-width: 400px;
+      margin: auto;
+      padding: 25px 0 30px 0;
+   }
+}
+
+.idea1 {
+   width: 274px;
+   font-family: "Pragati Narrow", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   letter-spacing: 0.3px;
+   line-height: 20px;
+   margin: 20px 0 20px 10px;
+   /* or 164% */
+
+   color: #ffeaea;
+}
+
+.aboutme {
+   max-width: 274px;
+   font-family: "Post No Bills Jaffna", sans-serif;
+   font-weight: 600;
+   font-size: 12px;
+   line-height: 20px;
+   margin: 10px 0 0 10px;
+
+   color: #ffeaea;
+}
+
+.idea2 {
+   width: 274px;
+   font-family: "Pragati Narrow", sans-serif;
+   font-weight: 400;
+   font-size: 14px;
+   letter-spacing: 0.3px;
+   line-height: 20px;
+   margin: 20px 0 0 10px;
+   /* or 164% */
+
+   color: #ffeaea;
+}
+
+.seo {
+   display: inline;
+   color: #00f0ff;
+}
+
+.businessengine {
+   display: inline;
+   color: #fc7878;
+}
+
+.photomy {
+   width: 98%;
+   height: 98%;
+   filter: drop-shadow(10px 8px 6px rgba(0, 0, 0, 0.26));
+}
+
+.myphoto {
+   max-width: 274px;
+   max-height: 300px;
+   margin: 0 0 0 10px;
+}
+
+.contprocess1 {
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   align-content: flex-start;
+}
+
+@media (min-width: 1100px) {
+   .aboutproject {
+      &__inner {
+         min-width: 1074px;
+      }
+   }
+   .contprocess1 {
+      display: none;
+   }
+   .contprocess2 {
+      display: grid;
+      grid-template-columns: 65% 35%;
+   }
+   .idea1 {
+      width: 90%;
+      font-size: 16px;
+   }
+   .idea2 {
+      width: 100%;
+      font-size: 16px;
+   }
+   .myphoto {
+      min-width: 324px;
+      min-height: 340px;
+   }
+   .aboutme {
+      min-width: 400px;
+      margin: 0;
+      margin-left: 10px;
+   }
+}

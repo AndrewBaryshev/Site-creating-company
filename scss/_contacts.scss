@@ -1,0 +1,31 @@
+.contactsblock {
+   background-color: #f0d0c6;
+   &__inner {
+      max-width: 400px;
+      margin: auto;
+      padding: 25px 0 30px 0;
+   }
+}
+
+.telemail {
+   margin: 15px 0 0 0;
+   font-family: "PT Mono";
+   font-style: normal;
+   font-weight: normal;
+   font-size: 13px;
+   line-height: 31px;
+   text-align: center;
+
+   color: #ffffff;
+}
+
+@media (min-width: 1100px) {
+   .contactsblock {
+      &__inner {
+         min-width: 1074px;
+      }
+   }
+   .telemail {
+      text-align: left;
+   }
+}
